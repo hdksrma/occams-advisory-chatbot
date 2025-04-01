@@ -1,0 +1,35 @@
+{
+    "name": "occams-advisory-chatbot",
+    "version": "1.0.0",
+    "description": "A LLM-based chatbot for Occams Advisory website",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js",
+      "scrape": "node scraper.js"
+    },
+    "keywords": [
+      "chatbot",
+      "llm",
+      "langchain",
+      "occams-advisory"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^1.6.2",
+      "cheerio": "^1.0.0-rc.12",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "langchain": "^0.0.167",
+      "hnswlib-node": "^1.4.2",
+      "openai": "^4.20.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    }
+  }
